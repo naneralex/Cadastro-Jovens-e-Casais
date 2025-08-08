@@ -1,0 +1,284 @@
+@charset "UTF-8";
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-titulo: #2C2E33;
+    --cor-textos: #3A3E4B;
+
+    --cor-fundo: #385DCA;
+    --cor-detalhes: #475DA0;
+    --cor-links: #1A51F5;
+
+}
+
+body, html {
+    background-image: linear-gradient(to top, #155CF5, #42526B);
+    background-color: #376CC0;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+   position: relative;
+   height: 100vh;
+   width: 100vw;
+}
+
+/* Área de Login */
+
+section#login {
+    position: absolute;
+    width: 300px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 15px black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+section#login > div#imagem {
+    background: url(../imagens/capa.png);
+    background-size: cover;
+    height: 250px;
+    display: block;
+}
+
+div#formulario {
+    display: block;
+    padding: 10px;
+    width: 95%;
+    margin: auto;
+}
+
+div#formulario > h1 {
+    color: var(--cor-titulo);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    color: var(--cor-textos);
+    font-size: 0.8em;
+    text-align: center;
+}
+
+form > div.campo {
+    background-color: var(--cor-detalhes);
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+    margin: 5px 0px;
+    display: block;
+}
+
+div.campo > label {
+    display: none;
+}
+
+div.campo > i {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input {
+    font-size: 1em;
+    height: 90%;
+    width: calc(100% - 47px);
+    border-radius: 8px;
+    border: 0px;
+    padding: 4px;
+    transform: translateY(-11px);
+}
+
+form > a.botao {
+    background-color: #6581d3;
+    border-radius: 5px;
+    color: white;
+    display: block;
+    float: left;
+    text-align: center;
+    font-size: 1em;
+    width: 45%;
+    height: 30px;
+    margin: 5px;
+    margin-left: 8px;
+    padding-top: 4px;
+    text-decoration: none;
+}
+
+form > a.botao:hover {
+    background-color: var(--cor-detalhes);
+}
+
+form > a.esqueci-senha {
+    background-color: #6581d3;
+    border-radius: 5px;
+    color: white;
+    display: block;
+    float: left;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 30px;
+    margin: 5px;
+    margin-left: 8px;
+    padding-top: 4px;
+    text-decoration: none;
+}
+
+form > a.esqueci-senha:hover {
+    background-color: var(--cor-detalhes);
+}
+
+form > a.esqueci-senha > i {
+    font-size: 0.8em;
+}
+
+/* Menu */
+
+section#fundo-cadastro {
+    position: absolute;
+    width: 350px;
+    height: 650px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 15px black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav {
+    background-color: var(--cor-fundo);
+    border-radius:  10px 10px 0px 0px;
+    padding-top: 5px;
+    height: 40px;
+    margin-bottom: 15px;
+
+}
+
+nav > a {
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 0.9em;
+    text-decoration: none;
+    padding: 6px 6px 10px 6px;
+}
+
+nav > a:hover, nav > a:visited{
+    background-color: #caa338;
+}
+
+/* Inicio do cadastro */
+
+fieldset {
+    border-radius: 10px;
+    padding: 10px;
+    width: 340px;
+    margin: auto;
+}
+
+label {
+    font-size: 0.8em;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+input.reduzido {
+    width: 39%;
+}
+
+.botao {
+    background-color: #6581d3;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    font-size: 1em;
+    width: 45%;
+    height: 30px;
+    margin: 5px;
+    margin-left: 8px;
+    padding-top: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.botao-limpar {
+    background-color: #6581d3;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    width: 95%;
+    height: 30px;
+    margin: 5px;
+    margin-left: 8px;
+    padding-top: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input.botao:hover {
+    background-color: var(--cor-detalhes);
+}
+
+/* Dados para encontro */
+
+fieldset.equipes {
+    height: 250px;
+    columns: 2;
+}
+
+fieldset#equipes input {
+    width: 15px;
+    border-radius: 10px;
+}
+
+
+/* Pesquisa */
+
+div.pesquisa {
+    background-color: var(--cor-detalhes);
+    color: white;
+    border-radius: 10px;
+    width: 95%;
+    height: 40px;
+    margin: 5px 0px;
+    display: block;
+    margin: auto;
+}
+
+div.pesquisa > label {
+    display: none;
+}
+
+div.pesquisa > input {
+    text-align: center;
+    font-size: 1em;
+    height: 80%;
+    width: calc(100% - 15px);
+    height: calc(80% + 2px);
+    border-radius: 8px;
+    border: 0px;
+    transform: translate(7px, 3px);
+}
+

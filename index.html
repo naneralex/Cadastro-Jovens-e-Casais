@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <title>Cadastro - Jovens e Casais</title>
+
+</head>
+
+<body>
+    
+    <main>
+        <section id="login">
+            
+            <div id="imagem">
+                <!-- Imagem na CSS-->
+            </div>
+
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Faça seu login para acessar ou clique em cadastrar para criar seu perfil.</p>
+
+                <form action="cadastro-jovem.html" method="get" autocomplete="on">
+
+                    <div class="campo">
+                        <i class="material-icons">person</i>
+                        <input type="email" name="login" id="ilogin" placeholder="seu e-mail" required maxlength="30">
+                        <label for="ilogin"></label>
+                    </div>
+
+                    <div class="campo">
+                        <i class="material-icons">lock</i>
+                        <input type="password" name="senha" id="isenha" placeholder="sua senha" required minlength="8" maxlength="20">
+                        <label for="isenha"></label>
+                    </div>
+
+                    <input type="submit" value="Entrar" class="botao">
+
+                    <a href="" class="botao">Cadastrar</a>
+
+                    
+                    <a href="#" class="esqueci-senha">esqueci a senha <i class="material-icons">mail</i></a>
+                </form>
+            </div>
+        </section>
+
+    </main>
+    
+</body>
+
+</html>
