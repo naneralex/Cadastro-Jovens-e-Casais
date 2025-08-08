@@ -173,9 +173,9 @@ nav > a {
     border-radius: 10px;
     text-align: center;
     color: white;
-    font-size: 0.9em;
+    font-size: 0.8em;
     text-decoration: none;
-    padding: 6px 5px;
+    padding: 6px 6px;
 }
 
 nav > a:hover, nav > a:visited{
