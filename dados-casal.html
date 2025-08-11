@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <title>Cadastro - Casal</title>
+
+</head>
+
+<body>
+    
+    <main>
+        <section id="fundo-cadastro">
+            <nav>
+                <a href="cadastro-jovem.html">Cadastrar Jovem</a>
+                <a href="cadastro-casal.html">Cadastrar Casal</a>
+                <a href="pesquisar.html">Pesquisar</a>
+                <a href="index.html">Sair</a>
+            </nav>
+
+            <fieldset id="equipes">
+                <legend>Dados para EJC / ECC</legend>
+                <form method="post">
+                    
+                    <label for="">São casados na igreja?</label> <br>
+
+                    <input type="checkbox" name="sim" id="isim">
+                    <label for="isim">Sim</label>
+
+                    <input type="checkbox" name="nao" id="inao">
+                    <label for="inao">Não</label> <br>
+
+                    <label for="">Já serviu em qual encontro</label> <br>
+
+                    <input type="checkbox" name="ejc" id="iejc">
+                    <label for="iejc">EJC</label>
+
+                    <input type="checkbox" name="ecc" id="iecc">
+                    <label for="iecc">ECC</label>
+
+                    <input type="checkbox" name="ambos" id="iambos">
+                    <label for="iambos">Ambos</label>
+
+                    <input type="checkbox" name="nunca" id="inunca">
+                    <label for="inunca">Nunca servi antes</label> <br>
+
+                    <label for="ieqp">Ultima equipe em que trabalhou</label> <br>
+
+                    <select name="equipe" id="ieqp">
+
+                        <option value="" selected>--- Escolha ---</option>
+                        <option value="">Primeiro Serviço</option>
+                        <option value="">Apresentador</option>
+                        <option value="">Bandinha</option>
+                        <option value="">Boa Vontade</option>
+                        <option value="">Círculos</option>
+                        <option value="">Correio Interno</option>
+                        <option value="">Cozinha</option>
+                        <option value="">Externa</option>
+                        <option value="">Geral</option>
+                        <option value="">Lanchinho</option>
+                        <option value="">Liturgia e Vigília</option>
+                        <option value="">Mini Box</option>
+                        <option value="">Ordem e Limpeza</option>
+                        <option value="">Recepção aos Palestrantes</option>
+                        <option value="">Secretaria</option>
+                        <option value="">Som e Iluminação</option>
+                        <option value="">Trânsito</option>
+                   
+                    </select>
+
+                </form>
+
+            </fieldset>
+
+            <fieldset id="equipes" class="equipes">
+                <legend>Equipes em que já serviu</legend>
+
+                <input type="checkbox" name="apre" id="iapre">
+                <label for="iapre">Apresentador</label> <br>
+
+                <input type="checkbox" name="band" id="iband">
+                <label for="iband">Bandinha</label> <br>
+                
+                <input type="checkbox" name="bv" id="ibv">
+                <label for="ibv">Boa Vontade</label> <br>
+                
+                <input type="checkbox" name="circ" id="icirc">
+                <label for="icirc">Círculos</label> <br>
+
+                <input type="checkbox" name="correio" id="icorreio">
+                <label for="icorreio">Correio Interno</label> <br>
+
+                <input type="checkbox" name="cozinha" id="icozinha">
+                <label for="icozinha">Cozinha</label> <br>
+
+                <input type="checkbox" name="ext" id="iext">
+                <label for="iext">Externa</label> <br>
+
+                <input type="checkbox" name="geral" id="igeral">
+                <label for="igeral">Geral</label> <br>
+
+                <input type="checkbox" name="lanch" id="ilanch">
+                <label for="ilanch">Lanchinho</label> <br>
+
+                <input type="checkbox" name="vigilia" id="ivigilia">
+                <label for="ivigilia">Liturgia e Vigília</label> <br>
+
+                <input type="checkbox" name="mbox" id="imbox">
+                <label for="imbox">Mini Box</label> <br>
+
+                <input type="checkbox" name="ordem" id="iordem">
+                <label for="iordem">Ordem e Limpeza</label> <br>
+
+                <input type="checkbox" name="recep" id="irecep">
+                <label for="irecep">Recepção aos Palestrantes</label> <br>
+
+                <input type="checkbox" name="sec" id="isec">
+                <label for="isec">Secretaria</label> <br>
+
+                <input type="checkbox" name="som" id="isom">
+                <label for="isom">Som e Iluminação</label> <br>
+
+                <input type="checkbox" name="tran" id="itran">
+                <label for="itran">Trânsito</label> <br>
+
+        </fieldset>
+
+            <a href="cadastro-casal.html" class="botao">Voltar</a>
+            <a href="observacoes-casal.html" class="botao">Próximo</a>
+            <input type="reset" value="Limpar" class="botao-limpar">
+
+        </section>
+
+    </main>
+    
+</body>
+
+</html>

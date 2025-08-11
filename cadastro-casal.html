@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <title>Cadastro - Casal</title>
+
+</head>
+
+<body>
+    
+    <main>
+        <section id="fundo-cadastro">
+            <nav>
+                <a href="cadastro-jovem.html">Cadastrar Jovem</a>
+                <a href="cadastro-casal.html">Cadastrar Casal</a>
+                <a href="pesquisar.html">Pesquisar</a>
+                <a href="index.html">Sair</a>
+            </nav>
+
+            <fieldset>
+                <legend>Dados da Esposa</legend>
+
+                <form method="post">
+
+                    <label for="inome">Nome Completo *</label>
+                    <input type="text" name="nome" id="inome" required> <br>
+
+                    <label for="inascimento">Data de nascimento *</label>
+
+                    <label for="itelefone">Telefone para contato *</label> <br>
+
+                    <input type="date" name="nascimento" id="inascimento" class="reduzido required">
+
+                    <input type="number" name="telefone" id="itelefone" class="reduzido" placeholder="(xx) xxxx-xxxx" required>
+
+                </form>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Dados do Marido</legend>
+
+                <form method="post">
+
+                    <label for="inomedele">Nome Completo *</label> <br>
+                    <input type="text" name="nomedele" id="inomedele" required> <br>
+
+                    <label for="inascimentodele">Data de nascimento *</label>
+                    
+                    <label for="itelefonedele">Telefone para contato *</label> <br>
+
+                    <input type="date" name="nascimentodele" id="inascimentodele" class="reduzido required">
+
+                    <input type="number" name="telefonedele" id="itelefonedele" class="reduzido" placeholder="(xx) xxxx-xxxx" required> <br>
+                    
+
+                </form>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Endereço</legend>
+
+                <form method="post">
+
+                    <label for="iendereço">Endereço *</label> <br>
+                    <input type="text" name="endereço" id="iendereço" required> <br>
+                    
+                    <label for="ibairro">Bairro *</label>
+
+                    <label for="inum">Nº *</label>  <br>
+
+                    <input type="text" name="bairro" id="ibairro" class="reduzido" required>
+
+                    <input type="number" name="num" id="inum" class="reduzido" required> <br>
+
+                    <label for="icomp">Complemento</label>
+                    <input type="text" name="comp" id="icomp" placeholder="casa, apto, ponto de referência">
+
+                </form>
+
+            </fieldset>
+
+            </fieldset>
+
+            <a href="#" class="botao">Limpar</a>
+            <a href="dados-casal.html" class="botao">Próximo</a>
+                
+            
+        </section>
+
+    </main>
+    
+</body>
+
+</html>
