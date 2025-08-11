@@ -190,6 +190,27 @@ h1 {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.356);
 }
 
+.botao-inicial {
+   background-color: #6581d3;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    font-size: 1em;
+    width: 95%;
+    height: 30px;
+    margin: 5px;
+    margin-left: 8px;
+    padding-top: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.botao-inicial:hover {
+    background-color: var(--cor-detalhes);
+}
+
 /* Inicio do cadastro */
 
 fieldset {
@@ -229,7 +250,11 @@ input.reduzido {
     cursor: pointer;
 }
 
-.botao-limpar {
+.botao:hover {
+    background-color: var(--cor-detalhes);
+}
+
+.botao-maior {
     background-color: #6581d3;
     border: none;
     border-radius: 5px;
@@ -243,6 +268,10 @@ input.reduzido {
     padding-top: 4px;
     text-decoration: none;
     cursor: pointer;
+}
+
+.botao-maior:hover {
+    background-color: var(--cor-detalhes);
 }
 
 input.botao:hover {
