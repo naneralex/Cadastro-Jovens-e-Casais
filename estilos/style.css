@@ -182,6 +182,14 @@ nav > a:hover, nav > a:visited{
     background-color: #caa338;
 }
 
+/* Página Inicial */
+
+h1 {
+    text-align: center;
+    color: var(--cor-detalhes);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.356);
+}
+
 /* Inicio do cadastro */
 
 fieldset {
