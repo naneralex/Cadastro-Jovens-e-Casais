@@ -54,12 +54,12 @@ Grandes telas: acima de 1200px
         color: white;
         display: block;
         text-align: center;
-        font-size: 1em;
+        font-size: 1.1em;
         width: 94%;
-        height: 30px;
+        height: 35px;
         margin: 5px;
         margin-left: 8px;
-        padding-top: 4px;
+        padding-top: 5px;
         text-decoration: none;
     }
 
@@ -70,9 +70,59 @@ Grandes telas: acima de 1200px
         color: white;
         display: inline-block;
         text-align: center;
-        font-size: 1em;
+        font-size: 1.1em;
         width: 45%;
-        height: 30px;
+        height: 35px;
+        margin: 5px;
+        margin-left: 8px;
+        padding-top: 4px;
+        padding-bottom: 6px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    input#botao:hover {
+        background-color: var(--cor-detalhes);
+    }
+
+    nav {
+        background-color: var(--cor-fundo);
+        border-radius:  10px 10px 0px 0px;
+        padding-top: 5px;
+        height: 45px;
+        margin-bottom: 15px;
+    }
+
+    nav > a {
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+        font-size: 1.5em;
+        text-decoration: none;
+        padding: 6px 6px;
+        margin-left: 10px;
+    }
+
+    nav > a:hover, nav > a:visited{
+        background-color: #caa338;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    /* Página Inicial */
+
+    .botao-inicial {
+        background-color: #6581d3;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        display: inline-block;
+        text-align: center;
+        font-size: 1.3em;
+        width: 95%;
+        height: 50px;
         margin: 5px;
         margin-left: 8px;
         padding-top: 4px;
@@ -80,7 +130,7 @@ Grandes telas: acima de 1200px
         cursor: pointer;
     }
 
-    input#botao:hover {
+    .botao-inicial:hover {
         background-color: var(--cor-detalhes);
     }
 
@@ -99,7 +149,7 @@ Grandes telas: acima de 1200px
     }
 
     fieldset {
-        font-size: 1em;
+        font-size: 1.2em;
         border-radius: 10px;
         padding: 10px;
         width: 95%;
@@ -113,12 +163,13 @@ Grandes telas: acima de 1200px
         color: white;
         display: inline-block;
         text-align: center;
-        font-size: 1em;
+        font-size: 1.1em;
         width: 45%;
-        height: 30px;
+        height: 35px;
         margin: 5px;
         margin-left: 28px;
         padding-top: 4px;
+        padding-bottom: 6px;
         text-decoration: none;
         cursor: pointer;
     }
@@ -129,12 +180,13 @@ Grandes telas: acima de 1200px
         border-radius: 5px;
         color: white;
         text-align: center;
-        font-size: 1em;
+        font-size: 1.1em;
         width: 94.5%;
-        height: 30px;
+        height: 35px;
         margin: 5px;
-        margin-left: 26px;
+        margin-left: 30px;
         padding-top: 4px;
+        padding-bottom: 6px;
         text-decoration: none;
         cursor: pointer;
     }
@@ -153,6 +205,536 @@ Grandes telas: acima de 1200px
         height: 30px;
         margin: 5px;
         margin-left: 21px;
+        padding-top: 4px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    a#botao:hover {
+        background-color: var(--cor-detalhes);
+    }
+    
+}
+
+
+
+
+
+
+
+
+/* Telas para desktop */
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    
+   section#login {
+        position: absolute;
+        width: 900px;
+        height: 500px;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 5px 5px 15px black;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+    }
+
+    section#login > div#imagem {
+        background: url(../imagens/capa.png);
+        background-size: cover;
+        height: 500px;
+        width: 450px;
+        display: block;
+        float: right;
+    }
+
+    div#formulario {
+        display: block;
+        float: left;
+        padding: 10px;
+        width: 95%;
+        margin: auto;
+        height: 500px;
+        width: 450px;
+    }
+
+    form > a.esqueci-senha {
+        background-color: #6581d3;
+        border-radius: 5px;
+        color: white;
+        display: block;
+        text-align: center;
+        font-size: 1em;
+        width: 94%;
+        height: 30px;
+        margin: 5px;
+        margin-left: 8px;
+        padding-top: 4px;
+        text-decoration: none;
+    }
+
+    h1 {
+        margin-top: 100px;
+    }
+
+    input#botao {
+        background-color: #6581d3;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        display: inline-block;
+        text-align: center;
+        font-size: 1.2em;
+        width: 45%;
+        height: 40px;
+        margin: 5px;
+        margin-left: 8px;
+       padding-bottom: 8px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    input#botao:hover {
+        background-color: var(--cor-detalhes);
+    }
+
+    nav {
+        background-color: var(--cor-fundo);
+        border-radius:  10px 10px 0px 0px;
+        padding-top: 5px;
+        height: 45px;
+        margin-bottom: 15px;
+    }
+
+    nav > a {
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+        font-size: 1.5em;
+        text-decoration: none;
+        padding: 6px 6px;
+        margin-left: 10px;
+    }
+
+    nav > a:hover, nav > a:visited{
+        background-color: #caa338;
+    }
+
+    h1 {
+        margin-top: 50px;
+        font-size: 2em;
+    }
+
+    form > a.botao {
+        background-color: #6581d3;
+        border-radius: 5px;
+        color: white;
+        display: block;
+        float: left;
+        text-align: center;
+        font-size: 1.2em;
+        width: 45%;
+        height: 40px;
+        margin: 5px;
+        margin-left: 8px;
+        padding-top: 4px;
+        text-decoration: none;
+    }
+
+    form > a.botao:hover {
+        background-color: var(--cor-detalhes);
+    }
+
+    form > a.esqueci-senha {
+        background-color: #6581d3;
+        border-radius: 5px;
+        color: white;
+        display: block;
+        float: left;
+        text-align: center;
+        font-size: 1.2em;
+        width: 94%;
+        height: 40px;
+        margin: 5px;
+        margin-left: 8px;
+        padding-top: 4px;
+        text-decoration: none;
+    }
+
+    form > a.esqueci-senha:hover {
+        background-color: var(--cor-detalhes);
+    }
+
+    form > a.esqueci-senha > i {
+        font-size: 1em;
+    }
+
+    /* Página Inicial */
+
+    .botao-inicial {
+        background-color: #6581d3;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        display: inline-block;
+        text-align: center;
+        font-size: 1.3em;
+        width: 95%;
+        height: 50px;
+        margin: 5px;
+        margin-left: 8px;
+        padding-top: 4px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .botao-inicial:hover {
+        background-color: var(--cor-detalhes);
+    }
+
+    /* Cadastro */
+
+    section#fundo-cadastro {
+        position: absolute;
+        width: 90%;
+        height: 80%;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 5px 5px 15px black;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    fieldset {
+        font-size: 1.3em;
+        border-radius: 10px;
+        padding: 10px;
+        padding-bottom: 20px;
+        width: 95%;
+        margin: auto;
+    }
+
+    fieldset.equipes {
+        height: 260px;
+        columns: 2;
+    }
+
+    .botao {
+        background-color: #6581d3;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        display: inline-block;
+        text-align: center;
+        font-size: 1.2em;
+        width: 45%;
+        height: 40px;
+        margin: 5px;
+        margin-left: 28px;
+        padding-top: 4px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .botao-maior {
+        background-color: #6581d3;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        text-align: center;
+        font-size: 1.2em;
+        width: 94.5%;
+        height: 40px;
+        margin: 5px;
+        margin-left: 26px;
+        padding-top: 4px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    /* Pesquisar */
+
+    a#botao-pesquisar {
+        background-color: #6581d3;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        display: inline-block;
+        text-align: center;
+        font-size: 1.2em;
+        width: 45%;
+        height: 40px;
+        margin: 5px;
+        margin-left: 32px;
+        padding-top: 4px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    a#botao:hover {
+        background-color: var(--cor-detalhes);
+    }
+    
+}
+
+
+
+
+
+
+/* Telas acima de 1200px */
+
+/* Telas para desktop */
+
+@media screen and (min-width: 1201px) {
+    
+   section#login {
+        position: absolute;
+        width: 900px;
+        height: 500px;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 5px 5px 15px black;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+    }
+
+    section#login > div#imagem {
+        background: url(../imagens/capa.png);
+        background-size: cover;
+        height: 500px;
+        width: 450px;
+        display: block;
+        float: right;
+    }
+
+    div#formulario {
+        display: block;
+        float: left;
+        padding: 10px;
+        width: 95%;
+        margin: auto;
+        height: 500px;
+        width: 450px;
+    }
+
+    form > a.esqueci-senha {
+        background-color: #6581d3;
+        border-radius: 5px;
+        color: white;
+        display: block;
+        text-align: center;
+        font-size: 1em;
+        width: 94%;
+        height: 30px;
+        margin: 5px;
+        margin-left: 8px;
+        padding-top: 4px;
+        text-decoration: none;
+    }
+
+    h1 {
+        margin-top: 100px;
+    }
+
+    input#botao {
+        background-color: #6581d3;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        display: inline-block;
+        text-align: center;
+        font-size: 1.2em;
+        width: 45%;
+        height: 40px;
+        margin: 5px;
+        margin-left: 8px;
+       padding-bottom: 8px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    input#botao:hover {
+        background-color: var(--cor-detalhes);
+    }
+
+    nav {
+        background-color: var(--cor-fundo);
+        border-radius:  10px 10px 0px 0px;
+        padding-top: 5px;
+        height: 45px;
+        margin-bottom: 15px;
+    }
+
+    nav > a {
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+        font-size: 1.5em;
+        text-decoration: none;
+        padding: 6px 6px;
+        margin-left: 10px;
+    }
+
+    nav > a:hover, nav > a:visited{
+        background-color: #caa338;
+    }
+
+    h1 {
+        margin-top: 50px;
+        font-size: 2em;
+    }
+
+    form > a.botao {
+        background-color: #6581d3;
+        border-radius: 5px;
+        color: white;
+        display: block;
+        float: left;
+        text-align: center;
+        font-size: 1.2em;
+        width: 45%;
+        height: 40px;
+        margin: 5px;
+        margin-left: 8px;
+        padding-top: 4px;
+        text-decoration: none;
+    }
+
+    form > a.botao:hover {
+        background-color: var(--cor-detalhes);
+    }
+
+    form > a.esqueci-senha {
+        background-color: #6581d3;
+        border-radius: 5px;
+        color: white;
+        display: block;
+        float: left;
+        text-align: center;
+        font-size: 1.2em;
+        width: 94%;
+        height: 40px;
+        margin: 5px;
+        margin-left: 8px;
+        padding-top: 4px;
+        text-decoration: none;
+    }
+
+    form > a.esqueci-senha:hover {
+        background-color: var(--cor-detalhes);
+    }
+
+    form > a.esqueci-senha > i {
+        font-size: 1em;
+    }
+
+    /* Página Inicial */
+
+    main {
+        width: 80vw;
+        margin: auto;
+    }
+    .botao-inicial {
+        background-color: #6581d3;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        display: inline-block;
+        text-align: center;
+        font-size: 1.3em;
+        width: 95%;
+        height: 50px;
+        margin: 5px;
+        margin-left: 35px;
+        padding-top: 4px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .botao-inicial:hover {
+        background-color: var(--cor-detalhes);
+    }
+
+    /* Cadastro */
+
+    section#fundo-cadastro {
+        position: absolute;
+        width: 90%;
+        height: 80%;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 5px 5px 15px black;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    fieldset {
+        font-size: 1.3em;
+        border-radius: 10px;
+        padding: 10px;
+        padding-bottom: 20px;
+        width: 95%;
+        margin: auto;
+    }
+
+    fieldset.equipes {
+        height: 260px;
+        columns: 2;
+    }
+
+    .botao {
+        background-color: #6581d3;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        display: inline-block;
+        text-align: center;
+        font-size: 1.2em;
+        width: 46%;
+        height: 40px;
+        margin: 5px;
+        margin-left: 35px;
+        padding-top: 4px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .botao-maior {
+        background-color: #6581d3;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        text-align: center;
+        font-size: 1.2em;
+        width: 95.4%;
+        height: 40px;
+        margin: 5px;
+        margin-left: 35px;
+        padding-top: 4px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    /* Pesquisar */
+
+    a#botao-pesquisar {
+        background-color: #6581d3;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        display: inline-block;
+        text-align: center;
+        font-size: 1.2em;
+        width: 45.7%;
+        height: 40px;
+        margin: 5px;
+        margin-left: 37px;
         padding-top: 4px;
         text-decoration: none;
         cursor: pointer;
