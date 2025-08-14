@@ -20,7 +20,6 @@
 body, html {
     background-image: linear-gradient(to top, #155CF5, #42526B);
     background-color: #376CC0;
-    background-attachment: fixed;
     height: 100vh;
     width: 100vw;
 }
