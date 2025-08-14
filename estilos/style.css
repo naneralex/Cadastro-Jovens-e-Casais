@@ -30,6 +30,21 @@ main {
    width: 100vw;
 }
 
+@media screen and (orientation: landscape) {
+    body, html {
+    background-image: linear-gradient(to top, #155CF5, #42526B);
+    background-color: #376CC0;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+   position: relative;
+   height: 100vh;
+   width: 100vw;
+}
+}
+
 /* Área de Login */
 
 section#login {
