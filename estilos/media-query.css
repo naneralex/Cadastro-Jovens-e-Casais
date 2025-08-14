@@ -15,6 +15,14 @@ Grandes telas: acima de 1200px
 /* Config para Tablets */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+
+    body, html {
+        background-image: linear-gradient(to top, #155CF5, #42526B);
+        background-color: #376CC0;
+        background-attachment: fixed;
+        height: 100vh;
+        width: 100vw;
+    }
     
    section#login {
         position: absolute;
@@ -226,6 +234,14 @@ Grandes telas: acima de 1200px
 /* Telas para desktop */
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    body, html {
+        background-image: linear-gradient(to top, #155CF5, #42526B);
+        background-color: #376CC0;
+        background-attachment: fixed;
+        height: 100vh;
+        width: 100vw;
+    }
     
    section#login {
         position: absolute;
@@ -489,6 +505,14 @@ Grandes telas: acima de 1200px
 /* Telas para desktop */
 
 @media screen and (min-width: 1201px) {
+
+    body, html {
+        background-image: linear-gradient(to top, #155CF5, #42526B);
+        background-color: #376CC0;
+        background-attachment: fixed;
+        height: 100vh;
+        width: 100vw;
+    }
     
    section#login {
         position: absolute;
