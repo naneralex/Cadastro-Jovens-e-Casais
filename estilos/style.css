@@ -34,7 +34,7 @@ main {
 
 section#login {
     position: absolute;
-    width: 300x;
+    width: 300px;
     height: 600px;
     border-radius: 20px;
     background-color: white;
