@@ -14,7 +14,7 @@ Grandes telas: acima de 1200px
 
 /* Tela pequena em formato landscape */
 
-@media screen and (min-width: 667px) {
+@media screen and (max-width: 600px) {
     
     section#login {
         position: absolute;
